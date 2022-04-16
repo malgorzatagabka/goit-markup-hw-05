@@ -568,7 +568,7 @@ img {
   margin-right: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
-  transition-property: color, box-shadow, background-color;
+  transition-property: color, box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
@@ -613,9 +613,11 @@ img {
   min-height: 581px;
   background-color: var(--third-color);
   transform: translate(-50%, -50%);
+  
 }
 
 .close-btn {
+  display: flex;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -623,9 +625,12 @@ img {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  fill: var(--logo-color);
-  background-color: var(--third-color);
+  background-color:var(--third-color);
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  
+
 }
 
 .is-hidden {
