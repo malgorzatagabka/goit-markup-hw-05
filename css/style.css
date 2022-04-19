@@ -613,7 +613,6 @@ img {
   min-height: 581px;
   background-color: var(--third-color);
   transform: translate(-50%, -50%);
-  
 }
 
 .close-btn {
@@ -627,11 +626,8 @@ img {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color:var(--third-color);
+  background-color: var(--third-color);
   cursor: pointer;
-  
-  
-
 }
 
 .is-hidden {
