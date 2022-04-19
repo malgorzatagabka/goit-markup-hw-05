@@ -605,6 +605,20 @@ img {
   height: 100%;
   background-color: var(--backdrop);
 }
+
+@keyframes modal {
+  0% {
+    background-color: var(--secondary-color);
+    transform: translate(50%, 50%);
+   
+  }
+  100%{
+    background-color: var(--third-color);
+    transform: translate(-50%, -50%);
+  }
+    
+}
+
 .modal {
   position: absolute;
   left: 50%;
@@ -613,6 +627,9 @@ img {
   min-height: 581px;
   background-color: var(--third-color);
   transform: translate(-50%, -50%);
+  animation-name: modal;
+  animation-duration: 2s;
+  
 }
 
 .close-btn {
