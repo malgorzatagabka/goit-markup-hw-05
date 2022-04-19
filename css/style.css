@@ -352,28 +352,15 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.client-list-card {
+
+.client-logo-icon {
+  cursor: pointer;
   padding: 16px 32px;
   border: 1px solid var(--social-icon);
   border-radius: 4px;
   fill: var(--social-icon);
-  align-items: center;
-  justify-content: space-between;
-  transition-property: fill, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.client-list-card:hover,
-.client-list-card:focus {
-  border: 1px solid var(--secondary-color);
-  fill: var(--secondary-color);
-}
-
-.client-logo-icon {
-  cursor: pointer;
-  fill: var(--social-icon);
-  transition-property: fill;
+  transition-property: fill,
+  border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -381,6 +368,7 @@ img {
 .client-logo-icon:hover,
 .client-logo-icon:focus {
   fill: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 /* END OUR CLIENTS */
