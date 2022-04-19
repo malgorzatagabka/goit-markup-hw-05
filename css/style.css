@@ -609,12 +609,12 @@ img {
  
 }
 
-/* .is-hidden {
+.is-hidden {
   opacity: 0;
   visibility:0;
   pointer-events: none;
 
-} */
+}
 
 
 .modal {
@@ -643,11 +643,4 @@ img {
   cursor: pointer;
 }
 
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  
-}
 /* BACKDROP */
